@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Property</title>
+</head>
+<body>
+    <h1>Class Property</h1>
+    <script>
+        class Mobil {
+          constructor() {
+            this.merk = "Daihatsu Xenia";
+            this.tipe = "MPV";
+            this.harga = "150000000";
+          }
+        }
+
+        var mobilAndi = new Mobil();
+        console.log ( mobilAndi.merk ); // Daihatsu Xenia
+
+        var mobilJoko = new Mobil();
+        console.log ( mobilJoko.tipe ); // MPV
+
+        var mobilAlex = new Mobil();
+        console.log ( mobilAlex.merk ); // Daihatsu Xenia
+    </script>
+</body>
+</html>
